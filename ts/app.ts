@@ -5,3 +5,6 @@ const ctx = canvas.getContext('2d')!;
 
 
 const game = new Game(canvas, ctx)
+
+
+setInterval(() => game.update(), 50)
