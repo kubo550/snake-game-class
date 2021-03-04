@@ -5,6 +5,7 @@ export var Keys;
     Keys["ArrowRight"] = "ArrowRight";
     Keys["ArrowLeft"] = "ArrowLeft";
 })(Keys || (Keys = {}));
+;
 const direction = new Map([
     [Keys.ArrowUp, { x: 0, y: -25 }],
     [Keys.ArrowDown, { x: 0, y: 25 }],

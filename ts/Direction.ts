@@ -3,7 +3,7 @@ export enum Keys {
     ArrowDown = "ArrowDown",
     ArrowRight = "ArrowRight",
     ArrowLeft = "ArrowLeft"
-}
+};
 
 
 const direction = new Map([
@@ -11,5 +11,6 @@ const direction = new Map([
     [Keys.ArrowDown, { x: 0, y: 25 }],
     [Keys.ArrowLeft, { x: -25, y: 0 }],
     [Keys.ArrowRight, { x: 25, y: 0 }],
-])
-export default direction
+]);
+
+export default direction;
