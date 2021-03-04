@@ -32,6 +32,7 @@ export default class Snake {
 
         this.nextSpot.y <= -this.size && (this.pos[0].y = this.canvas.height)
         this.nextSpot.y >= this.canvas.height && (this.pos[0].y = -this.size)
+
     }
     public grove() {
         this.pos = [this.pos[0], ...this.pos]
