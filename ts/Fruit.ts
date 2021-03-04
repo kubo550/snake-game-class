@@ -7,6 +7,7 @@ export type Pos = {
 };
 
 export default class Fruit {
+    // todo REMOVE SNAKE PLACE
     public readonly pos: Pos;
     private readonly color: string
     constructor(
