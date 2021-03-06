@@ -1,5 +1,6 @@
 import { point, randomPos } from "./utils/index.js";
 export default class Fruit {
+    // Todo Remove spot from possibies where snake is
     constructor(canvas, ctx, size) {
         this.canvas = canvas;
         this.ctx = ctx;
