@@ -5,7 +5,6 @@ export default class Snake {
     private pos: Pos[];
     private readonly color: string;
     private dir: { x: number; y: number };
-    // public dir: Direction
 
     constructor(
         private canvas: HTMLCanvasElement,
