@@ -1,5 +1,4 @@
-export const point = (x, y) => ({ x, y });
-export const randomPos = (range, size) => Math.floor(Math.random() * range) % size * size;
+import { point, randomPos } from "./utils/index.js";
 export default class Fruit {
     constructor(canvas, ctx, size) {
         this.canvas = canvas;
