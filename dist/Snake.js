@@ -1,6 +1,5 @@
 import direction, { Keys } from "./direction.js";
 export default class Snake {
-    // public dir: Direction
     constructor(canvas, ctx, size) {
         this.canvas = canvas;
         this.ctx = ctx;
