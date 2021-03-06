@@ -1,5 +1,4 @@
-export const point = (x: number, y: number) => ({ x, y });
-export const randomPos = (range: number, size: number) => Math.floor(Math.random() * range) % size * size;
+import { point, randomPos } from "./utils/index.js";
 
 export type Pos = {
     x: number;
@@ -7,9 +6,11 @@ export type Pos = {
 };
 
 export default class Fruit {
-    // todo REMOVE SNAKE PLACE
     public readonly pos: Pos;
     private readonly color: string
+
+    // Todo Remove spot from possibies where snake is
+
     constructor(
         private canvas: HTMLCanvasElement,
         private ctx: CanvasRenderingContext2D,
